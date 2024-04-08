@@ -1,0 +1,50 @@
+Circuit: * C:\Users\zoelr\OneDrive\Documents\GitHub\Team7\310\Zoe_Phase2.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+vernier = 0.5
+Gmin = 18.6414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 19.4331
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 19.5276
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Tue Apr  2 16:32:40 2024
+Total elapsed time: 0.676 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9510
+traniter = 7719
+tranpoints = 2409
+accept = 1935
+rejected = 474
+matrix size = 53
+fillins = 257
+solver = Normal
+Avg thread counts: 1.2/1.5/1.5/1.2
+Matrix Compiler1: 21.85 KB object code size  5.4/3.5/[2.2]
+Matrix Compiler2: 8.75 KB object code size  1.7/2.0/[0.8]
+
