@@ -1,6 +1,6 @@
 * C:\Users\Regan\OneDrive\Documents\GitHub\Team7\310\wave generator.asc
-R3 SW N001 6k
-R2 N001 N003 3k
+R3 SW N001 22k
+R2 N001 N003 10k
 R1 N002 SW 10k
 C1 N003 N002 330p
 V1 5V 0 5
@@ -10,9 +10,9 @@ R8 5V SW 100k
 Q1 N005 N006 N007 0 BC547B
 Q2 5V SW N006 0 BC547B
 D1 5V N005 KA3529
-R9 5V N004 10
-R10 N004 0 10
-R11 N007 0 1k
+R9 5V N004 100k
+R10 N004 0 100k
+R11 N007 0 160
 XU2 2.5V N002 5V 0 N003 TLC081
 XU1 N001 2.5V 5V 0 SW TLC081
 .model D D
@@ -20,7 +20,7 @@ XU1 N001 2.5V 5V 0 SW TLC081
 .model NPN NPN
 .model PNP PNP
 .lib C:\Users\Regan\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
-.tran .1m
+.tran 10m
 .include KA3529.txt
 .include TLC081.mod
 .backanno
